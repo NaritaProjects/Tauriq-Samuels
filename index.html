@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tauriq Samuels | Full Stack Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=JetBrains+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="top-nav">
+        <div class="status-indicator"><span class="pulse"></span> <span id="greeting"></span></div>
+        <div id="age-display" class="age-badge"></div>
+    </nav>
+
+    <main>
+        <header>
+            <div class="hero-content">
+                <div class="profile-container">
+                    <img src="profile.jpeg" alt="Tauriq Samuels" class="profile-img">
+                </div>
+                
+                <h1 id="user-name"></h1>
+                <p class="glitch-text" id="user-title"></p>
+                <div class="contact-bar">
+                    <span id="location-text"></span>
+                    <a id="user-email" href="#"></a>
+                </div>
+            </div>
+        </header>
+
+        <section class="library-section reveal-hidden">
+            <div class="section-header">
+                <h2>Architect's Note</h2>
+                <div class="line"></div>
+            </div>
+            <div class="ai-philosophy">
+                <p>I leverage <strong>Advanced AI Orchestration</strong> to bridge the gap between complex logic and rapid deployment. By integrating AI as a core development partner, I am able to venture into ambitious functionalities and tech stacks—including C#, Java, and Cloud Infrastructure—with 10x the standard productivity. <strong>I don't just write code; I engineer results.</strong></p>
+            </div>
+        </section>
+
+    <section class="library-section reveal-hidden">
+        <div class="section-header">
+            <h2>Mission & Aspirations</h2>
+            <div class="line"></div>
+        </div>
+        <div class="aspiration-card">
+            <p>
+                My objective is to scale <strong>Narita Projects</strong> into a powerhouse that architects and maintains enterprise-level infrastructure. I am committed to reaching the apex of software engineering through relentless project iteration and knowledge acquisition.
+            </p>
+            <p class="commitment-note">
+                <em>"I am the developer who stays online when the weekend starts. If a system needs to work, I will spend the hours required to ensure its integrity and performance. I bring that same obsessive dedication to every team I join."</em>
+            </p>
+        </div>
+    </section>
+
+        <section class="library-section">
+            <div class="section-header">
+                <h2>Skill Library</h2>
+                <div class="line"></div>
+            </div>
+            <div id="skill-grid" class="skill-grid"></div>
+        </section>
+
+        <section class="library-section">
+            <div class="section-header">
+                <h2>Project Registry</h2>
+                <div class="line"></div>
+            </div>
+            <div id="project-grid" class="project-grid"></div>
+        </section>
+    </main>
+    <br>
+    <br>
+
+    <script src="data.js"></script>
+    <script src="motion.js"></script>
+</body>
+</html>
